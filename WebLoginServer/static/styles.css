@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700");
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: subpixel-antialiased;
+  color: #abacae;
+  line-height: 25px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  overflow-x: hidden;
+}
+h1{
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: 38px;
+}
+h2{
+  font-size: 34px;
+}
+h3{
+  font-size: 30px;
+}
+h4{
+  font-size: 26px;
+}
+h1, h2, h3, h4 {
+  
+  color: #585b60;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+

@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Web Login</title>
+  <meta name="description" content="simple web login with qrcode">  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{static('styles.css')}}">
+</head>
+
+<body>
+
+    <div id="scan-me">
+      <div class="container">        
+        <h1 class="text-center">Web Login</h1>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12">            
+            <h4>Please scan the image to login </h4>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div>
+              <img src="{{image}}" alt="scan-me">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+</body>
+</html>
